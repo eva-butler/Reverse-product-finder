@@ -1,0 +1,37 @@
+/* src/Footer.css */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 30px; /* Adjust padding at the bottom for more black space */
+  }
+  
+  .footer-icons {
+    margin-bottom: 10px; /* Reduce margin to bring icons closer to the text */
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add gap between icons */
+  }
+  
+  .footer-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .footer-icons a:hover {
+    color: gray;
+  }
+  
+  .license-text {
+    font-weight: bold;
+    margin-bottom: 5px; /* Reduce margin to bring text closer */
+  }
+  
+  .license-details {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  

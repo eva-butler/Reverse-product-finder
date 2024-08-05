@@ -1,0 +1,53 @@
+/* src/StoreMap.css */
+.map-container {
+    width: 100%;
+    height: 600px; /* Increase the height to make the map taller */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .location-blurb {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .location-form {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .location-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .location-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .location-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .map {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+  }
+  

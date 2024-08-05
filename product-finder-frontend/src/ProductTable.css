@@ -1,0 +1,57 @@
+/* src/ProductTable.css */
+.table-container {
+    margin-top: 20px;
+    width: 80%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: darkblue;
+  }
+  
+  .availability {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+  }
+  
+  .sold-out {
+    background-color: red;
+  }
+  
+  .in-store {
+    background-color: blue;
+  }
+  
+  .online {
+    background-color: black;
+  }
+  

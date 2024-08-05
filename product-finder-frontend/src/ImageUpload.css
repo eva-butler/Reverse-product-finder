@@ -1,0 +1,76 @@
+/* src/ImageUpload.css */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .upload-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .upload-box {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .upload-box p {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .upload-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: black;
+    max-width: 300px; /* Limit the width for better readability */
+  }
+  
+  .upload-controls input {
+    margin-bottom: 10px;
+  }
+  
+  .upload-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+  
